@@ -1,0 +1,138 @@
+body{
+    background-image: url('C:/Users/yousef/Downloads/photo_2024-02-15_21-56-42.jpg');
+    background-size: 1515px 700px;
+    position: sticky;
+    height: 70vh;
+    color: white;
+    font-family: Arial, sans-serif;
+    margin-bottom: 50px;
+
+}
+
+.logo {
+    display:inline-block;
+    font-size: xx-large;
+    font-family: sans-serif;
+}
+
+ul {
+    display:inline-flex;
+    gap: 20px;
+    list-style: none;
+    float: right;
+    margin: 45px 20px 0px 0px;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+
+a{
+    color: azure;
+    text-decoration-line: none;    
+}
+
+.content {
+    text-align: center;
+    font-family: sans-serif;
+    padding-bottom: 200px;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+.button1 {
+    width: 100px ;
+    height: 30px ;
+    border: hidden;
+    border-radius: 90px ;
+    gap: 10px ;
+    background-color: #01A3F1;
+    color: azure;
+}
+
+i {
+    color: #01A3F1;
+    width: 50px ;
+    height: 50px ;
+    size: 20px;
+}
+
+.parent1 {
+    background-color: #181621;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    padding: 20px;
+    margin: 0px -10px;
+}
+
+.child {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.page2 {
+    text-align: center;
+    color:azure;
+    background-color: #201D2E;
+    font-family: sans-serif;
+    padding-top: 50px;
+    margin: -10px;
+}
+
+.parent2 , .parent3 {
+    display: flex;
+    justify-content: center;
+    gap: 40PX;
+    margin-left: 40px;
+}
+
+.button2 {
+    border: hidden;
+    width: 180px ;
+    height: 50px ;
+    border-radius: 5px ;
+    gap: 10px ;
+    background-color: #201D2E;
+    color:grey;
+    margin-bottom: 30px;
+}
+
+.button2:hover {
+    width: 180px ;
+    height: 50px ;
+    border-radius: 5px ;
+    gap: 10px ;
+    background-color: #01A3F1;
+    color:azure;
+}
+
+strong {
+    text-align: left;
+    font-size: large;
+}
+
+.p2 {
+    color:grey;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.p3 {
+    color:grey;
+    text-align: start;
+}
+
+.child3 {
+    text-align: start;
+}
+
+footer {
+    background-color: #181621;
+    padding: 20px;
+}
+
+.p4 {
+    color:grey;   
+}

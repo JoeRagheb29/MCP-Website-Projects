@@ -1,0 +1,237 @@
+body {
+    color: white;
+    background-color: black;
+}
+
+header {
+    font-family: sans-serif; 
+}
+
+.logo {
+    display: inline-block;
+    block-size: 55px;
+}
+
+ul{
+    display: inline-flex;
+    float: inline-end;
+    margin-right: 40px;
+}
+
+li{
+    list-style: none;   
+    padding: 0px 20px 0px 20px;
+}
+
+a {
+    color: white;
+    text-decoration-line: none;
+}
+
+button {
+    color: white;
+    background-color: #7FBA00;
+    border: none;
+    border-radius: 2px;
+    padding: 10px 15px 10px 15px;
+    margin: -10px;
+}
+
+h1 {
+    font-size: 60px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+span {
+    font-weight: bolder;
+}
+
+.Pcontent {
+    color: #87868E;
+}
+
+#button2 {
+    margin: 10px 0px 30px 0px;
+}
+
+.circle1 {
+    block-size: 100px;
+    border: solid;
+    border-radius: 100%;
+    color: #7FBA00;
+    padding: 40px;
+    padding-bottom: 70px;    
+    margin: 0px 0px 0px 550px;
+   /* margin: -165px 50px 0px 0px; */
+}
+
+.cimg1 {
+    border: solid;
+    block-size: 60px;
+    border-radius: 50%;
+    border-color: white;
+    position: absolute;
+    width: 40px;
+    height: 40px;
+}
+
+#img1 {    
+ /* margin: -40px 0px 0px -55px; */
+    margin: -30px 0px 0px -35px;
+}
+
+#img2 {
+    margin: -55px 0px 0px 95px;
+}
+
+#img3 {
+    margin: 110px 0px 0px -30px;
+}
+
+#img4 {
+    margin: 95px 0px 0px 145px;
+}
+
+.circle2 {
+    background: #D9D9D926;
+    border-radius: 100%;
+    padding: 30px;
+}
+
+.circle3 {
+    background: #D9D9D940;
+    border-radius: 100%;
+    padding: 25px;
+}
+
+.cimg3 {
+    border: solid;
+    block-size: 30px;
+    border-radius: 50%;
+    border-color: white;
+    position: absolute;
+    width: 20px;
+    height: 20px;
+}
+
+#img5 {
+    margin: -10px 0px 0px -30px;
+}
+
+#img6 {
+    margin: -15px 0px 0px 40px;
+}
+
+#img7 {
+    margin: 40px 0px 0px 15px;
+}
+
+.logo2 {
+    block-size: 25px;
+}
+
+.commetties {
+    display: flex;
+    gap: 25px;
+}
+
+h2 {
+    display: inline-block;
+    font-family: sans-serif;
+}
+
+i {
+    display: inline-block;
+    color: #7FBA00;
+    width: 20px;
+    height: auto;
+}
+
+.commetty {
+    background: #D9D9D926;
+    border-radius: 5px;
+    padding: 20px ;
+}
+
+#button3 {
+    margin: 10px 0px 0px 0px ;
+    padding-right: 35px;
+}
+
+.arrow {
+    border: solid white;
+    transform: rotate(-45deg);
+    border-width: 0px 1px 1px 0px;
+    display: inline-block;
+    padding: 5px;
+}
+
+.page2 {
+    background-image: url('c:/Users/yousef/Downloads/image4.jpg');
+    /* backdrop-filter: blur(80px); */
+    margin: 15px -8px 0px -10px ;
+    padding-top: 30px;
+    text-align: center;
+    font-size: xx-large;
+}
+
+/* .bg-image {
+    background-image: url('c:/Users/yousef/Downloads/image4.jpg');
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: blur(4px);
+} */
+
+.parent {
+    display: flex;
+    align-items: center;  
+    gap: 30px;
+    margin: 20px 20px 40px 20px;
+    padding: 30px 30px 30px 30px;
+}
+
+.child {
+    border: solid #7FBA00 ;
+    border-radius: 50px ;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#part1 {
+    background-image: url('C:/Users/yousef/Downloads/image8.jpg') ;
+    padding: 145px 225px 118px 20px;
+}
+
+#part21 {
+    background-image: url('C:/Users/yousef/Downloads/image6.jpg') ;
+    padding: 145px 225px 118px 20px;
+}
+
+#part22 {
+    background-image: url('C:/Users/yousef/Downloads/image2.jpg') ;
+    padding: 145px 225px 118px 20px;
+    margin: 40px 0px 0px 0px ;
+}
+
+#part3 {
+    background-image: url('C:/Users/yousef/Downloads/image9.jpg') ;
+    padding: 460px 260px 120px 20px;
+}
+
+#part41 {
+    background-image: url('C:/Users/yousef/Downloads/image3.jpg') ;
+    padding: 145px 225px 112px 20px;
+}
+
+#part42 {
+    background-image: url('C:/Users/yousef/Downloads/image1.jpg') ;
+    padding: 145px 225px 118px 20px;
+    margin: 40px 0px 0px 0px ;
+}
+
+#part5 {
+    background-image: url('C:/Users/yousef/Downloads/image7.jpg') ;
+    padding: 145px 225px 118px 20px;
+}
