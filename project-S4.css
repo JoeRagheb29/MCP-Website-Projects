@@ -1,3 +1,7 @@
+* {
+    font-family: sans-serif;
+}
+
 body {
     background-color: black;
     margin: 30px;
@@ -8,8 +12,6 @@ body {
     gap: 25%;
     align-content: center;
     justify-content: space-between;
-    /* background-color: aqua; */
-
 }
 
 #img1 {
@@ -26,13 +28,12 @@ body {
 
 #links {
     display: inline-flex;
-    gap: 25px;
+    gap: 40px;
     align-items: center;
 }
 
 #links li a {
     color: white;
-    font-family: sans-serif;
     text-decoration-line: none;
 }
 
@@ -41,4 +42,62 @@ body {
     color: #F25123;
     gap: 5px;
     align-items: center;
+}
+
+h1 {
+    font-size: 70px;
+    margin-top: 100px;
+}
+
+p {
+    color: gray;
+}
+
+button {
+    color: #ffffff;
+    background-color: #F25123;
+    border: none;
+    border-radius: 30px;
+    padding: 7px;
+    margin: 5px 0px 20px 0px;
+}
+
+#orange {
+    border: #F25123 solid 40px;
+    padding: 85px 170px 85px 170px;
+    margin: -50px 0px 0px 0px;
+    border-radius: 100%;
+    block-size: 170px;
+    position: absolute;
+    left: 600px;
+    z-index: 0;
+}
+
+#boy {
+    position: absolute;
+    left: 520px;
+    bottom: 175px;
+    block-size: 460px;
+    z-index: 1;
+}
+
+#flower1 {
+    position: absolute;
+    top: 110px;
+    right: 180px;
+    block-size: 120px;
+}
+
+#flower2 {
+    position: absolute;
+    top: 280px;
+    right: 100px;
+    block-size: 90px;
+}
+
+#flower3 {
+    position: absolute;
+    bottom: 220px;
+    right: 180px;
+    block-size: 60px;
 }
