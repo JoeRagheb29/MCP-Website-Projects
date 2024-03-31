@@ -1,0 +1,44 @@
+body {
+    background-color: black;
+    margin: 30px;
+}
+
+#navbar {
+    display: flex;
+    gap: 25%;
+    align-content: center;
+    justify-content: space-between;
+    /* background-color: aqua; */
+
+}
+
+#img1 {
+    display: inline-block;
+    block-size: 25px;
+    margin: 0px 0px -5px 0px;
+}
+
+#pLogo {
+    color: #F25123;
+    display: inline-block;
+    font-family: cursive;
+}
+
+#links {
+    display: inline-flex;
+    gap: 25px;
+    align-items: center;
+}
+
+#links li a {
+    color: white;
+    font-family: sans-serif;
+    text-decoration-line: none;
+}
+
+#icons {
+    display: flex;
+    color: #F25123;
+    gap: 5px;
+    align-items: center;
+}
